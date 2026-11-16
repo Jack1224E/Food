@@ -1,0 +1,44 @@
+@import "tailwindcss";
+
+:root {
+  --background: #fbf9f5;
+  --foreground: #1c1917;
+}
+
+@theme inline {
+  --color-background: var(--background);
+  --color-foreground: var(--foreground);
+  --color-culinary-canvas: #fbf9f5;
+  --color-culinary-white: #ffffff;
+  --color-culinary-card: #ffffff;
+  --color-culinary-border: #ede8e1;
+  --color-culinary-primary: #e25b27;      /* Warm appetizing terracotta orange like Allrecipes */
+  --color-culinary-primary-hover: #cf4915;
+  --color-culinary-amber: #f59e0b;        /* Warm golden honey/saffron */
+  --color-culinary-green: #15803d;        /* Fresh garden herb green */
+  --color-culinary-dark: #1c1917;         /* Deep readable espresso */
+  --color-culinary-muted: #78716c;        /* Soft warm stone grey */
+  --color-culinary-subtle: #f4efe6;       /* Warm buttery off-white */
+}
+
+body {
+  background: var(--background);
+  color: var(--foreground);
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
+  overflow-x: hidden;
+}
+
+/* Crisp and clean scrollbar for light culinary theme */
+::-webkit-scrollbar {
+  width: 8px;
+}
+::-webkit-scrollbar-track {
+  background: #fbf9f5;
+}
+::-webkit-scrollbar-thumb {
+  background: #d6cfc4;
+  border-radius: 4px;
+}
+::-webkit-scrollbar-thumb:hover {
+  background: #e25b27;
+}

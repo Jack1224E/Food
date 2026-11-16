@@ -1,0 +1,638 @@
+"use strict";(function(){try{var record=function(name,detail){aps.get(accountId).queue.push(new CustomEvent(name,{detail}))};const accountId="3446";window._aps=window._aps||new Map;const aps=window._aps;aps.has(accountId)||aps.set(accountId,{queue:[],store:new Map}),record("_config/requestViewerCountry/define",{"code":"IN"});record("analytics/sampling/set",{"rates":{"error":0.001,"status":0.0001}});record("a3pes/video/activate",{"restrictions":{"block":{"accounts":["5220","e32f1423-28bc-43ed-8ab0-5ae6b4449cf8"]}}});record("a3pes/video/activate",{"bypassCountryCheck":true,"restrictions":{"allow":{"accountTypes":["ssw"]},"block":{"accounts":["e32f1423-28bc-43ed-8ab0-5ae6b4449cf8"]}}});record("a3pes/video/activate",{"bypassCountryCheck":true,"restrictions":{"allow":{"accountTypes":["mw"],"rate":0.5},"block":{"accounts":["5220"]}}});record("a3pes/banner/activate",{"restrictions":{"allow":{"rate":0.25}}});record("idVendors/enabled/set",{"bidParameterKeys":["liveintent","merkle","intimateMerger","pair","amx","33across","fTrack","publink","anonymised","quantcast","idPlus","unifiedid","fabrick","uid","criteo","yahoo","liveRamp","id5","firstid","pubcommon","audigent","lightPublisherAudiences","lotame"]});record("idVendors/integration/execute",{"accountId":"3446","sourceId":"3446","countryCode":"IN","vendorId":"id5","allowedRegions":undefined,"blockedRegions":["BR"],"vendorLoadedSampleRate":5,"domainPrecedence":[],"defaultScript":function anonymous(
+) {
+undefined?undefined.includes("IN")&&(function anonymous(
+) {
+var id5PropertyId = '957';
+if (id5PropertyId && id5PropertyId.charAt(0) !== '%') {
+    var id5Script = document.createElement('script');
+    id5Script.src = '//cdn.id5-sync.com/api/1.0/id5-api.js';
+    id5Script['onload'] = function(e) { 
+        ID5.init({ partnerId: Number(id5PropertyId) , provider: 'aps' })
+    };
+    document.head.appendChild(id5Script);
+}
+})():(!["BR"]||["BR"]&&!["BR"].includes("IN"))&&(function anonymous(
+) {
+var id5PropertyId = '957';
+if (id5PropertyId && id5PropertyId.charAt(0) !== '%') {
+    var id5Script = document.createElement('script');
+    id5Script.src = '//cdn.id5-sync.com/api/1.0/id5-api.js';
+    id5Script['onload'] = function(e) { 
+        ID5.init({ partnerId: Number(id5PropertyId) , provider: 'aps' })
+    };
+    document.head.appendChild(id5Script);
+}
+})()
+},"defaultPropertyId":"957"});record("idVendors/integration/execute",{"accountId":"3446","sourceId":"3446","countryCode":"IN","vendorId":"liveRamp","allowedRegions":undefined,"blockedRegions":undefined,"vendorLoadedSampleRate":5,"domainPrecedence":[],"defaultScript":function anonymous(
+) {
+undefined?undefined.includes("IN")&&(function anonymous(
+) {
+var liveRampPropertyId = '08378bf6-c29a-482b-88a2-bf3e3bcf4974';
+if (!window.launchPad && liveRampPropertyId && liveRampPropertyId.charAt(0) !== '%') {
+  var liverampScript = document.createElement('script');
+  liverampScript.setAttribute('async', 'async');
+  liverampScript.setAttribute('defer', 'defer');
+  liverampScript.setAttribute('src','https://launchpad-wrapper.privacymanager.io/' + liveRampPropertyId + '/launchpad-liveramp.js');
+  document.head.appendChild(liverampScript);
+}
+})():(!undefined||undefined&&!undefined.includes("IN"))&&(function anonymous(
+) {
+var liveRampPropertyId = '08378bf6-c29a-482b-88a2-bf3e3bcf4974';
+if (!window.launchPad && liveRampPropertyId && liveRampPropertyId.charAt(0) !== '%') {
+  var liverampScript = document.createElement('script');
+  liverampScript.setAttribute('async', 'async');
+  liverampScript.setAttribute('defer', 'defer');
+  liverampScript.setAttribute('src','https://launchpad-wrapper.privacymanager.io/' + liveRampPropertyId + '/launchpad-liveramp.js');
+  document.head.appendChild(liverampScript);
+}
+})()
+},"defaultPropertyId":"08378bf6-c29a-482b-88a2-bf3e3bcf4974"});record("idVendors/integration/execute",{"accountId":"3446","sourceId":"3446","countryCode":"IN","vendorId":"lotame","allowedRegions":undefined,"blockedRegions":["BR"],"vendorLoadedSampleRate":5,"domainPrecedence":[],"defaultScript":function anonymous(
+) {
+undefined?undefined.includes("IN")&&(function anonymous(
+) {
+if (!window['lotame_sync_16576']) {
+  var lotameClientId = '16576';
+
+  initLotame(lotameClientId);
+  createLotameScript(lotameClientId);
+
+  function initLotame(propertyId) {
+    var lotameConfig = {};
+    var namespace = window['lotame_sync_' + propertyId] = {};
+    namespace.config = lotameConfig;
+    namespace.data = {};
+    namespace.cmd = namespace.cmd || [];
+
+    namespace.cmd.push(function () {
+      namespace.sync();
+    });
+  };
+
+  function createLotameScript(propertyId) {
+    var lotameSyncUrl = "https://tags.crwdcntrl.net/lt/c/" + propertyId + "/sync.min.js";
+    var lotameScriptTag = document.createElement('script');
+    lotameScriptTag.src = lotameSyncUrl;
+    document.head.appendChild(lotameScriptTag);
+  };
+}
+})():(!["BR"]||["BR"]&&!["BR"].includes("IN"))&&(function anonymous(
+) {
+if (!window['lotame_sync_16576']) {
+  var lotameClientId = '16576';
+
+  initLotame(lotameClientId);
+  createLotameScript(lotameClientId);
+
+  function initLotame(propertyId) {
+    var lotameConfig = {};
+    var namespace = window['lotame_sync_' + propertyId] = {};
+    namespace.config = lotameConfig;
+    namespace.data = {};
+    namespace.cmd = namespace.cmd || [];
+
+    namespace.cmd.push(function () {
+      namespace.sync();
+    });
+  };
+
+  function createLotameScript(propertyId) {
+    var lotameSyncUrl = "https://tags.crwdcntrl.net/lt/c/" + propertyId + "/sync.min.js";
+    var lotameScriptTag = document.createElement('script');
+    lotameScriptTag.src = lotameSyncUrl;
+    document.head.appendChild(lotameScriptTag);
+  };
+}
+})()
+},"defaultPropertyId":undefined});record("idVendors/integration/execute",{"accountId":"3446","sourceId":"3446","countryCode":"IN","vendorId":"pubcommon","allowedRegions":undefined,"blockedRegions":["BR"],"vendorLoadedSampleRate":5,"domainPrecedence":[],"defaultScript":function anonymous(
+) {
+undefined?undefined.includes("IN")&&(function anonymous(
+) {
+if (!window.PublisherCommonId) {
+    var pubcommonScript = document.createElement('script');
+    pubcommonScript.src = '//secure.cdn.fastclick.net/js/pubcid/latest/pubcid.min.js';
+    document.head.appendChild(pubcommonScript);
+}
+})():(!["BR"]||["BR"]&&!["BR"].includes("IN"))&&(function anonymous(
+) {
+if (!window.PublisherCommonId) {
+    var pubcommonScript = document.createElement('script');
+    pubcommonScript.src = '//secure.cdn.fastclick.net/js/pubcid/latest/pubcid.min.js';
+    document.head.appendChild(pubcommonScript);
+}
+})()
+},"defaultPropertyId":undefined});record("idVendors/integration/execute",{"accountId":"3446","sourceId":"3446","countryCode":"IN","vendorId":"yahoo","allowedRegions":["US"],"blockedRegions":undefined,"vendorLoadedSampleRate":5,"domainPrecedence":[],"defaultScript":function anonymous(
+) {
+["US"]?["US"].includes("IN")&&(function anonymous(
+) {
+var yahooPropertyId = '58873';
+const params = { 
+  pixelId: yahooPropertyId,
+};
+
+function createYahooScript () {
+  var yahooScript = document.createElement('script');
+  yahooScript.src = '//connectid.analytics.yahoo.com/connectId.js';
+  yahooScript['onload'] = function(e) { connectId.getIds(params,function (val) { window.apstag.__yahoo = true }) };
+  document.head.appendChild(yahooScript);
+}
+
+if (yahooPropertyId && yahooPropertyId.charAt(0) !== '%') {
+  if (!window.connectId) {
+    createYahooScript();
+  }
+};
+})():(!undefined||undefined&&!undefined.includes("IN"))&&(function anonymous(
+) {
+var yahooPropertyId = '58873';
+const params = { 
+  pixelId: yahooPropertyId,
+};
+
+function createYahooScript () {
+  var yahooScript = document.createElement('script');
+  yahooScript.src = '//connectid.analytics.yahoo.com/connectId.js';
+  yahooScript['onload'] = function(e) { connectId.getIds(params,function (val) { window.apstag.__yahoo = true }) };
+  document.head.appendChild(yahooScript);
+}
+
+if (yahooPropertyId && yahooPropertyId.charAt(0) !== '%') {
+  if (!window.connectId) {
+    createYahooScript();
+  }
+};
+})()
+},"defaultPropertyId":"58873"});record("idVendors/integration/execute",{"accountId":"3446","sourceId":"3446","countryCode":"IN","vendorId":"lightPublisherAudiences","allowedRegions":undefined,"blockedRegions":["BR"],"vendorLoadedSampleRate":5,"domainPrecedence":[{"hostnames":["allrecipes.ca","verywellhealth.com","siempremujer.com","ew.com","liveabout.com","verywellmind.com","thesprucepets.com","shape.com","mywedding.com","verywell.com","instyle.com","myrecipes.com","thebalance.com","investopedia.com","eatingwell.com","betterhomesandgardens.com","allrecipes.com.au","treehugger.com","selectablemedia.com","mydomaine.com","celebwell.com","foodandwine.com","realsimple.com","travelandleisure.com","cookinglight.com","thespruce.com","fitpregnancy.com","diabeticlivingonline.com","peopleenespanol.com","health.com","dailypaws.com","thebalancecareers.com","parenting.com","entertainmentweekly.com","byrdie.co.uk","serpadres.com","brides.com","midwestliving.com","themagnoliajournal.com","allrecipes.com","lifewire.com","thesprucecrafts.com","marthastewart.com","local.thespruce.com","learnreligions.com","thespruceeats.com","bodynetwork.com","emerils.com","livingthecountrylife.com","xojane.com","southernliving.com","aboutespanol.com","hellogiggles.com","simplyrecipes.com","babynames.net","departures.com","allpeoplequilt.com","people.com","diabeticliving.com","eatthis.com","thoughtco.com","verywellfamily.com","thebalancesmb.com","bhg.com","seriouseats.com","thebalancemoney.com","more.com","woodmagazine.com","about.com","parents.com","allrecipes.co.uk","dotdash.com","thebalanceeveryday.com","bestlifeonline.com","tripsavvy.com","liquor.com","byrdie.com","marthastewartweddings.com","thethirty.byrdie.com","verywellfit.com","traditionalhome.com"],"script":function anonymous(
+) {
+undefined?undefined.includes("IN")&&(function anonymous(
+) {
+if (typeof apstag.rr === 'function') {
+  apstag.rr({   'methods': [     {       'type': 'email',       'method': 'URL',       'target': 'lr_input'     }   ] });
+}
+})():(!["BR"]||["BR"]&&!["BR"].includes("IN"))&&(function anonymous(
+) {
+if (typeof apstag.rr === 'function') {
+  apstag.rr({   'methods': [     {       'type': 'email',       'method': 'URL',       'target': 'lr_input'     }   ] });
+}
+})()
+},"propertyId":"{   'methods': [     {       'type': 'email',       'method': 'URL',       'target': 'lr_input'     }   ] }"}],"defaultScript":undefined,"defaultPropertyId":undefined});record("idVendors/integration/execute",{"accountId":"3446","sourceId":"3446","countryCode":"IN","vendorId":"acceptableAdsExchange","allowedRegions":undefined,"blockedRegions":undefined,"vendorLoadedSampleRate":5,"domainPrecedence":[{"hostnames":["verywellhealth.com","ew.com","liveabout.com","verywellmind.com","thesprucepets.com","shape.com","instyle.com","myrecipes.com","investopedia.com","eatingwell.com","treehugger.com","mydomaine.com","foodandwine.com","realsimple.com","travelandleisure.com","thespruce.com","peopleenespanol.com","health.com","dailypaws.com","brides.com","midwestliving.com","allrecipes.com","lifewire.com","thesprucecrafts.com","marthastewart.com","learnreligions.com","thespruceeats.com","southernliving.com","aboutespanol.com","simplyrecipes.com","allpeoplequilt.com","people.com","thoughtco.com","bhg.com","seriouseats.com","thebalancemoney.com","woodmagazine.com","parents.com","tripsavvy.com","liquor.com","byrdie.com","verywellfit.com"],"script":function anonymous(
+) {
+undefined?undefined.includes("IN")&&(function anonymous(
+) {
+var blockthroughPropertyId = '5657833865478144';
+if (!window.__bt_already_invoked && blockthroughPropertyId && blockthroughPropertyId.charAt(0) !== '%') {
+  createScript('https://btloader.com/tag?o='+ blockthroughPropertyId + '&upapi=true');
+}
+
+function createScript(url){
+  var blockthroughScript = document.createElement('script');
+  blockthroughScript.type = 'text/javascript';
+  blockthroughScript.src = url;
+  document.head.appendChild(blockthroughScript);
+}
+})():(!undefined||undefined&&!undefined.includes("IN"))&&(function anonymous(
+) {
+var blockthroughPropertyId = '5657833865478144';
+if (!window.__bt_already_invoked && blockthroughPropertyId && blockthroughPropertyId.charAt(0) !== '%') {
+  createScript('https://btloader.com/tag?o='+ blockthroughPropertyId + '&upapi=true');
+}
+
+function createScript(url){
+  var blockthroughScript = document.createElement('script');
+  blockthroughScript.type = 'text/javascript';
+  blockthroughScript.src = url;
+  document.head.appendChild(blockthroughScript);
+}
+})()
+},"propertyId":"5657833865478144"}],"defaultScript":undefined,"defaultPropertyId":undefined});record("idVendors/integration/execute",{"accountId":"3446","sourceId":"3446","countryCode":"IN","vendorId":"liveintent","allowedRegions":undefined,"blockedRegions":["BR"],"vendorLoadedSampleRate":5,"domainPrecedence":[{"hostnames":["verywellhealth.com"],"script":function anonymous(
+) {
+undefined?undefined.includes("IN")&&(function anonymous(
+) {
+(function(){if (window.apstag) {window.apstag.__liveintent__ = false;}})();
+})():(!["BR"]||["BR"]&&!["BR"].includes("IN"))&&(function anonymous(
+) {
+(function(){if (window.apstag) {window.apstag.__liveintent__ = false;}})();
+})()
+},"propertyId":"72669"},{"hostnames":["liveabout.com"],"script":function anonymous(
+) {
+undefined?undefined.includes("IN")&&(function anonymous(
+) {
+(function(){if (window.apstag) {window.apstag.__liveintent__ = false;}})();
+})():(!["BR"]||["BR"]&&!["BR"].includes("IN"))&&(function anonymous(
+) {
+(function(){if (window.apstag) {window.apstag.__liveintent__ = false;}})();
+})()
+},"propertyId":"79928"},{"hostnames":["verywellmind.com"],"script":function anonymous(
+) {
+undefined?undefined.includes("IN")&&(function anonymous(
+) {
+(function(){if (window.apstag) {window.apstag.__liveintent__ = false;}})();
+})():(!["BR"]||["BR"]&&!["BR"].includes("IN"))&&(function anonymous(
+) {
+(function(){if (window.apstag) {window.apstag.__liveintent__ = false;}})();
+})()
+},"propertyId":"72670"},{"hostnames":["thesprucepets.com"],"script":function anonymous(
+) {
+undefined?undefined.includes("IN")&&(function anonymous(
+) {
+(function(){if (window.apstag) {window.apstag.__liveintent__ = false;}})();
+})():(!["BR"]||["BR"]&&!["BR"].includes("IN"))&&(function anonymous(
+) {
+(function(){if (window.apstag) {window.apstag.__liveintent__ = false;}})();
+})()
+},"propertyId":"73303"},{"hostnames":["shape.com"],"script":function anonymous(
+) {
+undefined?undefined.includes("IN")&&(function anonymous(
+) {
+(function(){if (window.apstag) {window.apstag.__liveintent__ = false;}})();
+})():(!["BR"]||["BR"]&&!["BR"].includes("IN"))&&(function anonymous(
+) {
+(function(){if (window.apstag) {window.apstag.__liveintent__ = false;}})();
+})()
+},"propertyId":"10646"},{"hostnames":["instyle.com"],"script":function anonymous(
+) {
+undefined?undefined.includes("IN")&&(function anonymous(
+) {
+(function(){if (window.apstag) {window.apstag.__liveintent__ = false;}})();
+})():(!["BR"]||["BR"]&&!["BR"].includes("IN"))&&(function anonymous(
+) {
+(function(){if (window.apstag) {window.apstag.__liveintent__ = false;}})();
+})()
+},"propertyId":"45371"},{"hostnames":["myrecipes.com"],"script":function anonymous(
+) {
+undefined?undefined.includes("IN")&&(function anonymous(
+) {
+(function(){if (window.apstag) {window.apstag.__liveintent__ = false;}})();
+})():(!["BR"]||["BR"]&&!["BR"].includes("IN"))&&(function anonymous(
+) {
+(function(){if (window.apstag) {window.apstag.__liveintent__ = false;}})();
+})()
+},"propertyId":"45412"},{"hostnames":["thebalance.com"],"script":function anonymous(
+) {
+undefined?undefined.includes("IN")&&(function anonymous(
+) {
+(function(){if (window.apstag) {window.apstag.__liveintent__ = false;}})();
+})():(!["BR"]||["BR"]&&!["BR"].includes("IN"))&&(function anonymous(
+) {
+(function(){if (window.apstag) {window.apstag.__liveintent__ = false;}})();
+})()
+},"propertyId":"79922"},{"hostnames":["investopedia.com"],"script":function anonymous(
+) {
+undefined?undefined.includes("IN")&&(function anonymous(
+) {
+(function(){if (window.apstag) {window.apstag.__liveintent__ = false;}})();
+})():(!["BR"]||["BR"]&&!["BR"].includes("IN"))&&(function anonymous(
+) {
+(function(){if (window.apstag) {window.apstag.__liveintent__ = false;}})();
+})()
+},"propertyId":"77015"},{"hostnames":["eatingwell.com"],"script":function anonymous(
+) {
+undefined?undefined.includes("IN")&&(function anonymous(
+) {
+(function(){if (window.apstag) {window.apstag.__liveintent__ = false;}})();
+})():(!["BR"]||["BR"]&&!["BR"].includes("IN"))&&(function anonymous(
+) {
+(function(){if (window.apstag) {window.apstag.__liveintent__ = false;}})();
+})()
+},"propertyId":"1138"},{"hostnames":["betterhomesandgardens.com"],"script":function anonymous(
+) {
+undefined?undefined.includes("IN")&&(function anonymous(
+) {
+(function(){if (window.apstag) {window.apstag.__liveintent__ = false;}})();
+})():(!["BR"]||["BR"]&&!["BR"].includes("IN"))&&(function anonymous(
+) {
+(function(){if (window.apstag) {window.apstag.__liveintent__ = false;}})();
+})()
+},"propertyId":"1115"},{"hostnames":["treehugger.com"],"script":function anonymous(
+) {
+undefined?undefined.includes("IN")&&(function anonymous(
+) {
+(function(){if (window.apstag) {window.apstag.__liveintent__ = false;}})();
+})():(!["BR"]||["BR"]&&!["BR"].includes("IN"))&&(function anonymous(
+) {
+(function(){if (window.apstag) {window.apstag.__liveintent__ = false;}})();
+})()
+},"propertyId":"73301"},{"hostnames":["mydomaine.com"],"script":function anonymous(
+) {
+undefined?undefined.includes("IN")&&(function anonymous(
+) {
+(function(){if (window.apstag) {window.apstag.__liveintent__ = false;}})();
+})():(!["BR"]||["BR"]&&!["BR"].includes("IN"))&&(function anonymous(
+) {
+(function(){if (window.apstag) {window.apstag.__liveintent__ = false;}})();
+})()
+},"propertyId":"73298"},{"hostnames":["celebwell.com"],"script":function anonymous(
+) {
+undefined?undefined.includes("IN")&&(function anonymous(
+) {
+(function(){if (window.apstag) {window.apstag.__liveintent__ = false;}})();
+})():(!["BR"]||["BR"]&&!["BR"].includes("IN"))&&(function anonymous(
+) {
+(function(){if (window.apstag) {window.apstag.__liveintent__ = false;}})();
+})()
+},"propertyId":"79929"},{"hostnames":["foodandwine.com"],"script":function anonymous(
+) {
+undefined?undefined.includes("IN")&&(function anonymous(
+) {
+(function(){if (window.apstag) {window.apstag.__liveintent__ = false;}})();
+})():(!["BR"]||["BR"]&&!["BR"].includes("IN"))&&(function anonymous(
+) {
+(function(){if (window.apstag) {window.apstag.__liveintent__ = false;}})();
+})()
+},"propertyId":"45726"},{"hostnames":["realsimple.com"],"script":function anonymous(
+) {
+undefined?undefined.includes("IN")&&(function anonymous(
+) {
+(function(){if (window.apstag) {window.apstag.__liveintent__ = false;}})();
+})():(!["BR"]||["BR"]&&!["BR"].includes("IN"))&&(function anonymous(
+) {
+(function(){if (window.apstag) {window.apstag.__liveintent__ = false;}})();
+})()
+},"propertyId":"44795"},{"hostnames":["travelandleisure.com"],"script":function anonymous(
+) {
+undefined?undefined.includes("IN")&&(function anonymous(
+) {
+(function(){if (window.apstag) {window.apstag.__liveintent__ = false;}})();
+})():(!["BR"]||["BR"]&&!["BR"].includes("IN"))&&(function anonymous(
+) {
+(function(){if (window.apstag) {window.apstag.__liveintent__ = false;}})();
+})()
+},"propertyId":"45734"},{"hostnames":["thespruce.com"],"script":function anonymous(
+) {
+undefined?undefined.includes("IN")&&(function anonymous(
+) {
+(function(){if (window.apstag) {window.apstag.__liveintent__ = false;}})();
+})():(!["BR"]||["BR"]&&!["BR"].includes("IN"))&&(function anonymous(
+) {
+(function(){if (window.apstag) {window.apstag.__liveintent__ = false;}})();
+})()
+},"propertyId":"72517"},{"hostnames":["peopleenespanol.com"],"script":function anonymous(
+) {
+undefined?undefined.includes("IN")&&(function anonymous(
+) {
+(function(){if (window.apstag) {window.apstag.__liveintent__ = false;}})();
+})():(!["BR"]||["BR"]&&!["BR"].includes("IN"))&&(function anonymous(
+) {
+(function(){if (window.apstag) {window.apstag.__liveintent__ = false;}})();
+})()
+},"propertyId":"46109"},{"hostnames":["health.com"],"script":function anonymous(
+) {
+undefined?undefined.includes("IN")&&(function anonymous(
+) {
+(function(){if (window.apstag) {window.apstag.__liveintent__ = false;}})();
+})():(!["BR"]||["BR"]&&!["BR"].includes("IN"))&&(function anonymous(
+) {
+(function(){if (window.apstag) {window.apstag.__liveintent__ = false;}})();
+})()
+},"propertyId":"46113"},{"hostnames":["dailypaws.com"],"script":function anonymous(
+) {
+undefined?undefined.includes("IN")&&(function anonymous(
+) {
+(function(){if (window.apstag) {window.apstag.__liveintent__ = false;}})();
+})():(!["BR"]||["BR"]&&!["BR"].includes("IN"))&&(function anonymous(
+) {
+(function(){if (window.apstag) {window.apstag.__liveintent__ = false;}})();
+})()
+},"propertyId":"61676"},{"hostnames":["entertainmentweekly.com"],"script":function anonymous(
+) {
+undefined?undefined.includes("IN")&&(function anonymous(
+) {
+(function(){if (window.apstag) {window.apstag.__liveintent__ = false;}})();
+})():(!["BR"]||["BR"]&&!["BR"].includes("IN"))&&(function anonymous(
+) {
+(function(){if (window.apstag) {window.apstag.__liveintent__ = false;}})();
+})()
+},"propertyId":"45960"},{"hostnames":["brides.com"],"script":function anonymous(
+) {
+undefined?undefined.includes("IN")&&(function anonymous(
+) {
+(function(){if (window.apstag) {window.apstag.__liveintent__ = false;}})();
+})():(!["BR"]||["BR"]&&!["BR"].includes("IN"))&&(function anonymous(
+) {
+(function(){if (window.apstag) {window.apstag.__liveintent__ = false;}})();
+})()
+},"propertyId":"72666"},{"hostnames":["midwestliving.com"],"script":function anonymous(
+) {
+undefined?undefined.includes("IN")&&(function anonymous(
+) {
+(function(){if (window.apstag) {window.apstag.__liveintent__ = false;}})();
+})():(!["BR"]||["BR"]&&!["BR"].includes("IN"))&&(function anonymous(
+) {
+(function(){if (window.apstag) {window.apstag.__liveintent__ = false;}})();
+})()
+},"propertyId":"1125"},{"hostnames":["allrecipes.com"],"script":function anonymous(
+) {
+undefined?undefined.includes("IN")&&(function anonymous(
+) {
+(function(){if (window.apstag) {window.apstag.__liveintent__ = false;}})();
+})():(!["BR"]||["BR"]&&!["BR"].includes("IN"))&&(function anonymous(
+) {
+(function(){if (window.apstag) {window.apstag.__liveintent__ = false;}})();
+})()
+},"propertyId":"443"},{"hostnames":["lifewire.com"],"script":function anonymous(
+) {
+undefined?undefined.includes("IN")&&(function anonymous(
+) {
+(function(){if (window.apstag) {window.apstag.__liveintent__ = false;}})();
+})():(!["BR"]||["BR"]&&!["BR"].includes("IN"))&&(function anonymous(
+) {
+(function(){if (window.apstag) {window.apstag.__liveintent__ = false;}})();
+})()
+},"propertyId":"73296"},{"hostnames":["thesprucecrafts.com"],"script":function anonymous(
+) {
+undefined?undefined.includes("IN")&&(function anonymous(
+) {
+(function(){if (window.apstag) {window.apstag.__liveintent__ = false;}})();
+})():(!["BR"]||["BR"]&&!["BR"].includes("IN"))&&(function anonymous(
+) {
+(function(){if (window.apstag) {window.apstag.__liveintent__ = false;}})();
+})()
+},"propertyId":"72520"},{"hostnames":["marthastewart.com"],"script":function anonymous(
+) {
+undefined?undefined.includes("IN")&&(function anonymous(
+) {
+(function(){if (window.apstag) {window.apstag.__liveintent__ = false;}})();
+})():(!["BR"]||["BR"]&&!["BR"].includes("IN"))&&(function anonymous(
+) {
+(function(){if (window.apstag) {window.apstag.__liveintent__ = false;}})();
+})()
+},"propertyId":"9405"},{"hostnames":["learnreligions.com"],"script":function anonymous(
+) {
+undefined?undefined.includes("IN")&&(function anonymous(
+) {
+(function(){if (window.apstag) {window.apstag.__liveintent__ = false;}})();
+})():(!["BR"]||["BR"]&&!["BR"].includes("IN"))&&(function anonymous(
+) {
+(function(){if (window.apstag) {window.apstag.__liveintent__ = false;}})();
+})()
+},"propertyId":"79926"},{"hostnames":["thespruceeats.com"],"script":function anonymous(
+) {
+undefined?undefined.includes("IN")&&(function anonymous(
+) {
+(function(){if (window.apstag) {window.apstag.__liveintent__ = false;}})();
+})():(!["BR"]||["BR"]&&!["BR"].includes("IN"))&&(function anonymous(
+) {
+(function(){if (window.apstag) {window.apstag.__liveintent__ = false;}})();
+})()
+},"propertyId":"72516"},{"hostnames":["livingthecountrylife.com"],"script":function anonymous(
+) {
+undefined?undefined.includes("IN")&&(function anonymous(
+) {
+(function(){if (window.apstag) {window.apstag.__liveintent__ = false;}})();
+})():(!["BR"]||["BR"]&&!["BR"].includes("IN"))&&(function anonymous(
+) {
+(function(){if (window.apstag) {window.apstag.__liveintent__ = false;}})();
+})()
+},"propertyId":"1126"},{"hostnames":["southernliving.com"],"script":function anonymous(
+) {
+undefined?undefined.includes("IN")&&(function anonymous(
+) {
+(function(){if (window.apstag) {window.apstag.__liveintent__ = false;}})();
+})():(!["BR"]||["BR"]&&!["BR"].includes("IN"))&&(function anonymous(
+) {
+(function(){if (window.apstag) {window.apstag.__liveintent__ = false;}})();
+})()
+},"propertyId":"45370"},{"hostnames":["aboutespanol.com"],"script":function anonymous(
+) {
+undefined?undefined.includes("IN")&&(function anonymous(
+) {
+(function(){if (window.apstag) {window.apstag.__liveintent__ = false;}})();
+})():(!["BR"]||["BR"]&&!["BR"].includes("IN"))&&(function anonymous(
+) {
+(function(){if (window.apstag) {window.apstag.__liveintent__ = false;}})();
+})()
+},"propertyId":"79927"},{"hostnames":["hellogiggles.com"],"script":function anonymous(
+) {
+undefined?undefined.includes("IN")&&(function anonymous(
+) {
+(function(){if (window.apstag) {window.apstag.__liveintent__ = false;}})();
+})():(!["BR"]||["BR"]&&!["BR"].includes("IN"))&&(function anonymous(
+) {
+(function(){if (window.apstag) {window.apstag.__liveintent__ = false;}})();
+})()
+},"propertyId":"79930"},{"hostnames":["simplyrecipes.com"],"script":function anonymous(
+) {
+undefined?undefined.includes("IN")&&(function anonymous(
+) {
+(function(){if (window.apstag) {window.apstag.__liveintent__ = false;}})();
+})():(!["BR"]||["BR"]&&!["BR"].includes("IN"))&&(function anonymous(
+) {
+(function(){if (window.apstag) {window.apstag.__liveintent__ = false;}})();
+})()
+},"propertyId":"72515"},{"hostnames":["allpeoplequilt.com"],"script":function anonymous(
+) {
+undefined?undefined.includes("IN")&&(function anonymous(
+) {
+(function(){if (window.apstag) {window.apstag.__liveintent__ = false;}})();
+})():(!["BR"]||["BR"]&&!["BR"].includes("IN"))&&(function anonymous(
+) {
+(function(){if (window.apstag) {window.apstag.__liveintent__ = false;}})();
+})()
+},"propertyId":"1124"},{"hostnames":["people.com"],"script":function anonymous(
+) {
+undefined?undefined.includes("IN")&&(function anonymous(
+) {
+(function(){if (window.apstag) {window.apstag.__liveintent__ = false;}})();
+})():(!["BR"]||["BR"]&&!["BR"].includes("IN"))&&(function anonymous(
+) {
+(function(){if (window.apstag) {window.apstag.__liveintent__ = false;}})();
+})()
+},"propertyId":"46111"},{"hostnames":["eatthis.com"],"script":function anonymous(
+) {
+undefined?undefined.includes("IN")&&(function anonymous(
+) {
+(function(){if (window.apstag) {window.apstag.__liveintent__ = false;}})();
+})():(!["BR"]||["BR"]&&!["BR"].includes("IN"))&&(function anonymous(
+) {
+(function(){if (window.apstag) {window.apstag.__liveintent__ = false;}})();
+})()
+},"propertyId":"9068"},{"hostnames":["thoughtco.com"],"script":function anonymous(
+) {
+undefined?undefined.includes("IN")&&(function anonymous(
+) {
+(function(){if (window.apstag) {window.apstag.__liveintent__ = false;}})();
+})():(!["BR"]||["BR"]&&!["BR"].includes("IN"))&&(function anonymous(
+) {
+(function(){if (window.apstag) {window.apstag.__liveintent__ = false;}})();
+})()
+},"propertyId":"79925"},{"hostnames":["verywellfamily.com"],"script":function anonymous(
+) {
+undefined?undefined.includes("IN")&&(function anonymous(
+) {
+(function(){if (window.apstag) {window.apstag.__liveintent__ = false;}})();
+})():(!["BR"]||["BR"]&&!["BR"].includes("IN"))&&(function anonymous(
+) {
+(function(){if (window.apstag) {window.apstag.__liveintent__ = false;}})();
+})()
+},"propertyId":"79924"},{"hostnames":["seriouseats.com"],"script":function anonymous(
+) {
+undefined?undefined.includes("IN")&&(function anonymous(
+) {
+(function(){if (window.apstag) {window.apstag.__liveintent__ = false;}})();
+})():(!["BR"]||["BR"]&&!["BR"].includes("IN"))&&(function anonymous(
+) {
+(function(){if (window.apstag) {window.apstag.__liveintent__ = false;}})();
+})()
+},"propertyId":"73300"},{"hostnames":["woodmagazine.com"],"script":function anonymous(
+) {
+undefined?undefined.includes("IN")&&(function anonymous(
+) {
+(function(){if (window.apstag) {window.apstag.__liveintent__ = false;}})();
+})():(!["BR"]||["BR"]&&!["BR"].includes("IN"))&&(function anonymous(
+) {
+(function(){if (window.apstag) {window.apstag.__liveintent__ = false;}})();
+})()
+},"propertyId":"1127"},{"hostnames":["parents.com"],"script":function anonymous(
+) {
+undefined?undefined.includes("IN")&&(function anonymous(
+) {
+(function(){if (window.apstag) {window.apstag.__liveintent__ = false;}})();
+})():(!["BR"]||["BR"]&&!["BR"].includes("IN"))&&(function anonymous(
+) {
+(function(){if (window.apstag) {window.apstag.__liveintent__ = false;}})();
+})()
+},"propertyId":"1048"},{"hostnames":["bestlifeonline.com"],"script":function anonymous(
+) {
+undefined?undefined.includes("IN")&&(function anonymous(
+) {
+(function(){if (window.apstag) {window.apstag.__liveintent__ = false;}})();
+})():(!["BR"]||["BR"]&&!["BR"].includes("IN"))&&(function anonymous(
+) {
+(function(){if (window.apstag) {window.apstag.__liveintent__ = false;}})();
+})()
+},"propertyId":"27335"},{"hostnames":["tripsavvy.com"],"script":function anonymous(
+) {
+undefined?undefined.includes("IN")&&(function anonymous(
+) {
+(function(){if (window.apstag) {window.apstag.__liveintent__ = false;}})();
+})():(!["BR"]||["BR"]&&!["BR"].includes("IN"))&&(function anonymous(
+) {
+(function(){if (window.apstag) {window.apstag.__liveintent__ = false;}})();
+})()
+},"propertyId":"73302"},{"hostnames":["liquor.com"],"script":function anonymous(
+) {
+undefined?undefined.includes("IN")&&(function anonymous(
+) {
+(function(){if (window.apstag) {window.apstag.__liveintent__ = false;}})();
+})():(!["BR"]||["BR"]&&!["BR"].includes("IN"))&&(function anonymous(
+) {
+(function(){if (window.apstag) {window.apstag.__liveintent__ = false;}})();
+})()
+},"propertyId":"73299"},{"hostnames":["byrdie.com"],"script":function anonymous(
+) {
+undefined?undefined.includes("IN")&&(function anonymous(
+) {
+(function(){if (window.apstag) {window.apstag.__liveintent__ = false;}})();
+})():(!["BR"]||["BR"]&&!["BR"].includes("IN"))&&(function anonymous(
+) {
+(function(){if (window.apstag) {window.apstag.__liveintent__ = false;}})();
+})()
+},"propertyId":"72667"},{"hostnames":["verywellfit.com"],"script":function anonymous(
+) {
+undefined?undefined.includes("IN")&&(function anonymous(
+) {
+(function(){if (window.apstag) {window.apstag.__liveintent__ = false;}})();
+})():(!["BR"]||["BR"]&&!["BR"].includes("IN"))&&(function anonymous(
+) {
+(function(){if (window.apstag) {window.apstag.__liveintent__ = false;}})();
+})()
+},"propertyId":"72672"}],"defaultScript":undefined,"defaultPropertyId":undefined});record("_config/config/didLoad",undefined)}catch(e){console.error(e)}})();
